@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Skip the Lines, See the World: Why I Book My Travel Experiences with Tiqets"
-date: 2017-09-12 10:00:00 +0300
+date: 2026-06-1 
 categories: [travel, tips]
 tags: [travel, tickets, attractions, tiqets]
 img: tiqets.png.png
