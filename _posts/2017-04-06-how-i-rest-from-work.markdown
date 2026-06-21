@@ -4,7 +4,7 @@ title: "Skip the Lines, See the World: Why I Book My Travel Experiences with Tiq
 date: 2017-09-12 10:00:00 +0300
 categories: [travel, tips]
 tags: [travel, tickets, attractions, tiqets]
-img: travel-banner.jpg
+img: tiqets.png.png
 ---
 
 Travel is my escape. After a long week of work, there's nothing I love more than exploring a new city, visiting world-class museums, and soaking in the culture. But there's one thing that used to drain all the joy out of my trips: **standing in lines.**
