@@ -1479,3 +1479,72 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+/* ============================================================
+   IMAGE UNIFICATION - Added to standardize all post images
+   ============================================================ */
+
+/* === 1. Uniform styling for all images inside posts === */
+.post-content img,
+.page-content img,
+.wrap-content img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* === 2. Cover image (featured image at top of post) === */
+.page-cover-image img {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+/* === 3. Thumbnail images on homepage === */
+.post .post-thumbnail {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* === 4. Images inside tables or other elements === */
+table img,
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* === 5. Responsive fine-tuning for mobile === */
+@media only screen and (max-width: 768px) {
+  .post-content img,
+  .page-content img,
+  .wrap-content img {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .page-cover-image img {
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .post-content img,
+  .page-content img,
+  .wrap-content img {
+    max-width: 100%;
+    margin: 0.75rem auto;
+    border-radius: 4px;
+  }
+  
+  .page-cover-image img {
+    max-height: 200px;
+  }
+}
