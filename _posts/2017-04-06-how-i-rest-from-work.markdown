@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stop Queuing, Start Exploring: Your Key to the World's Best Attractions"
+title: "Tiqets: Skip-the-Line Tickets – Explore Top Attractions Worldwide"
 date: 2026-06-21 10:00:00 +0300
 categories: [travel, tips]
 tags: [travel, tickets, attractions, tiqets]
